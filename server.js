@@ -22,4 +22,6 @@ function start() {
     app.listen(1337);
 }
 
-start();
+module.exports = {
+    start
+}
