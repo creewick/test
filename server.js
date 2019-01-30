@@ -19,7 +19,7 @@ function start() {
         res.send('API is running');
     });
     
-    app.listen(1337);
+    app.listen(process.env.PORT || '3000');
 }
 
 module.exports = {
